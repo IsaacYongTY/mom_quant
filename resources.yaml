@@ -830,682 +830,6 @@
                     - regolith: [1, 1, 20]
                     - metal_bits: [1, 1, 1]
         #machine_shop
-        make_lifescience_tools_artisan_C1:
-            display_name: Make Artisan Life Science Tools
-            building: machine_shop
-            level:
-                machining: 150
-            input:
-                lifescience_tools_m: 1
-                metis_weave: 10
-                titanium_plate: 5
-                fertilizer: 5
-                power: 100
-                stamina: 10
-                machining_tools: 5
-                glitter: 10
-                minting_token: 1
-            output:
-                lootlist:
-                    - lifescience_tools_e: [1, 1, 1]
-        make_lifescience_tools_expert_C1:
-            display_name: Make Expert Life Science Tools
-            building: machine_shop
-            level:
-                machining: 75
-            input:
-                lifescience_tools_j: 1
-                metis_weave: 1
-                soil: 50
-                water: 75
-                power: 100
-                stamina: 5
-                machining_tools: 3
-                glitter: 5
-            output:
-                lootlist:
-                    - lifescience_tools_e: [1, 1, 1]
-        make_lifescience_tools_journeyman_C1:
-            display_name: Make Journeyman Life Science Tools
-            building: machine_shop
-            level:
-                machining: 55
-            input:
-                lifescience_tools_a: 1
-                metis: 2
-                soil: 80
-                water: 80
-                regolith: 200
-                stamina: 5
-                power: 80
-                machining_tools: 3
-            output:
-                lootlist:
-                    - lifescience_tools_j: [1, 1, 1]
-        make_lifescience_tools_master_C1:
-            display_name: Make Master Life Science Tools
-            building: machine_shop
-            level:
-                machining: 100
-            input:
-                lifescience_tools_e: 1
-                metis_weave: 3
-                titanium_plate: 3
-                soil: 75
-                power: 100
-                stamina: 5
-                machining_tools: 4
-                glitter: 10
-                minting_token: 1
-            output:
-                lootlist:
-                    - lifescience_tools_m: [1, 1, 1]
-        make_machining_tools_artisan_C1:
-            display_name: Make Artisan Machining Tools
-            building: machine_shop
-            level:
-                machining: 160
-            input:
-                machining_tools_m: 1
-                metis_weave: 10
-                titanium_plate: 5
-                machined_parts: 3
-                power: 100
-                stamina: 10
-                machining_tools: 5
-                glitter: 10
-                minting_token: 1
-            output:
-                lootlist:
-                    - machining_tools_ar: [1, 1, 1]
-        make_machining_tools_expert_C1:
-            display_name: Make Expert Machining Tools
-            building: machine_shop
-            level:
-                machining: 85
-            input:
-                machining_tools_j: 1
-                metis_weave: 1
-                smelt_steel: 10
-                metal_bits: 100
-                power: 100
-                stamina: 5
-                machining_tools: 3
-                glitter: 5
-            output:
-                lootlist:
-                    - machining_tools_e: [1, 1, 1]
-        make_machining_tools_journeyman_C1:
-            display_name: Make Journeyman Machining Tools
-            building: machine_shop
-            level:
-                machining: 50
-            input:
-                machining_tools_a: 1
-                metis: 2
-                smelt_steel: 15
-                metal_bits: 100
-                electronic_bits: 50
-                power: 80
-                stamina: 5
-                machining_tools: 3
-            output:
-                lootlist:
-                    - machining_tools_j: [1, 1, 1]
-        make_machining_tools_master_C1:
-            display_name: Make Master Machining Tools
-            building: machine_shop
-            level:
-                machining: 115
-            input:
-                machining_tools_e: 1
-                metis_weave: 3
-                titanium_plate: 3
-                machined_parts: 1
-                power: 100
-                stamina: 5
-                machining_tools: 4
-                glitter: 10
-                minting_token: 1
-            output:
-                lootlist:
-                    - machining_tools_m: [1, 1, 1]
-        make_mining_tools_artisan_C1:
-            display_name: Make Artisan Mining Tools
-            building: machine_shop
-            level:
-                machining: 160
-            input:
-                mining_tools_m: 1
-                metis_weave: 10
-                titanium_plate: 5
-                regolith: 5000
-                power: 100
-                stamina: 10
-                machining_tools: 5
-                glitter: 10
-                minting_token: 1
-            output:
-                lootlist:
-                    - mining_tools_ar: [1, 1, 1]
-        make_mining_tools_expert_C1:
-            display_name: Make Expert Mining Tools
-            building: machine_shop
-            level:
-                machining: 85
-            input:
-                mining_tools_j: 1
-                metis_weave: 1
-                metal_bits: 100
-                smelt_iron: 10
-                power: 100
-                stamina: 5
-                machining_tools: 3
-                glitter: 5
-            output:
-                lootlist:
-                    - mining_tools_e: [1, 1, 1]
-        make_mining_tools_journeyman_C1:
-            display_name: Make Journeyman Mining Tools
-            building: machine_shop
-            level:
-                machining: 65
-            input:
-                mining_tools_a: 1
-                metis: 2
-                metal_bits: 100
-                smelt_iron: 15
-                regolith: 250
-                power: 80
-                stamina: 5
-                machining_tools: 3
-            output:
-                lootlist:
-                    - mining_tools_j: [1, 1, 1]
-        make_mining_tools_master_C1:
-            display_name: Make Master Mining Tools
-            building: machine_shop
-            level:
-                machining: 115
-            input:
-                mining_tools_e: 1
-                metis_weave: 3
-                titanium_plate: 3
-                regolith: 1500
-                power: 100
-                stamina: 5
-                machining_tools: 3
-                glitter: 10
-                minting_token: 1
-            output:
-                lootlist:
-                    - mining_tools_m: [1, 1, 1]
-        make_aerospace_tools_apprentice_C1:
-            display_name: Make Apprentice Aerospace Tools
-            building: machine_shop
-            level:
-                machining: 70
-            input:
-                aerospace_tools_n: 1
-                metis: 2
-                smelt_copper: 10
-                electronic_bits: 25
-                rover_wires: 10
-                power: 60
-                stamina: 5
-            output:
-                lootlist:
-                    - aerospace_tools_a: [1, 1, 1]
-        make_aerospace_tools_artisan_C1:
-            display_name: Make Artisan Aerospace Tools
-            building: machine_shop
-            level:
-                machining: 170
-            input:
-                aerospace_tools_m: 1
-                metis_weave: 5
-                titanium_plate: 5
-                chromium: 10
-                glitter: 10
-                power: 140
-                stamina: 10
-                machining_tools: 10
-                minting_token: 1
-            output:
-                lootlist:
-                    - aerospace_tools_ar: [1, 1, 1]
-        make_aerospace_tools_expert_C1:
-            display_name: Make Expert Aerospace Tools
-            building: machine_shop
-            level:
-                machining: 110
-            input:
-                aerospace_tools_j: 1
-                metis_weave: 1
-                smelt_copper: 20
-                rover_wires: 20
-                glitter: 5
-                power: 100
-                stamina: 5
-                machining_tools: 5
-            output:
-                lootlist:
-                    - aerospace_tools_e: [1, 1, 1]
-        make_aerospace_tools_journeyman_C1:
-            display_name: Make Journeyman Aerospace Tools
-            building: machine_shop
-            level:
-                machining: 90
-            input:
-                aerospace_tools_a: 1
-                metis: 2
-                smelt_copper: 20
-                electronic_bits: 100
-                rover_wires: 20
-                power: 80
-                stamina: 5
-                machining_tools: 3
-            output:
-                lootlist:
-                    - aerospace_tools_j: [1, 1, 1]
-        make_aerospace_tools_master_C1:
-            display_name: Make Master Aerospace Tools
-            building: machine_shop
-            level:
-                machining: 130
-            input:
-                aerospace_tools_e: 1
-                metis_weave: 3
-                titanium_plate: 3
-                chromium: 5
-                glitter: 10
-                power: 120
-                stamina: 10
-                machining_tools: 10
-            output:
-                lootlist:
-                    - aerospace_tools_m: [1, 1, 1]
-        make_aerospace_tools_novice_C1:
-            display_name: Make Novice Aerospace Tools
-            building: machine_shop
-            level:
-                machining: 50
-            input:
-                chromium: 25
-                metal_bits: 50
-                rover_wires: 30
-                metis: 2
-                dusk: 10
-                power: 60
-                stamina: 5
-            output:
-                lootlist:
-                    - aerospace_tools_n: [1, 1, 1]
-        make_robotics_tools_artisan_C1:
-            display_name: Make Artisan Robotics Tools
-            building: machine_shop
-            level:
-                machining: 165
-            input:
-                robotics_tools_m: 1
-                metis_weave: 10
-                titanium_plate: 5
-                rover_wires: 200
-                power: 100
-                stamina: 10
-                machining_tools: 5
-                glitter: 10
-                minting_token: 1
-            output:
-                lootlist:
-                    - robotics_tools_ar: [1, 1, 1]
-        make_robotics_tools_expert_C1:
-            display_name: Make Expert Robotics Tools
-            building: machine_shop
-            level:
-                machining: 90
-            input:
-                robotics_tools_j: 1
-                metis_weave: 1
-                electronic_bits: 100
-                rover_wires: 20
-                power: 100
-                stamina: 5
-                machining_tools: 3
-                glitter: 5
-            output:
-                lootlist:
-                    - robotics_tools_e: [1, 1, 1]
-        make_robotics_tools_journeyman_C1:
-            display_name: Make Journeyman Robotics Tools
-            building: machine_shop
-            level:
-                machining: 50
-            input:
-                robotics_tools_a: 1
-                metis: 2
-                metal_bits: 100
-                electronic_bits: 100
-                rover_wires: 20
-                power: 80
-                stamina: 5
-                machining_tools: 3
-            output:
-                lootlist:
-                    - robotics_tools_j: [1, 1, 1]
-        make_robotics_tools_master_C1:
-            display_name: Make Master Robotics Tools
-            building: machine_shop
-            level:
-                machining: 130
-            input:
-                robotics_tools_e: 1
-                metis_weave: 3
-                titanium_plate: 3
-                rover_wires: 50
-                power: 100
-                stamina: 5
-                machining_tools: 4
-                glitter: 10
-                minting_token: 1
-            output:
-                lootlist:
-                    - robotics_tools_m: [1, 1, 1]
-        make_scavenging_tools_artisan_C1:
-            display_name: Make Artisan Scavenging Tools
-            building: machine_shop
-            level:
-                machining: 150
-            input:
-                scavenging_tools_Master: 1
-                metis_weave: 5
-                titanium_plate: 5
-                electronics_parts: 3
-                power: 100
-                stamina: 10
-                machining_tools: 5
-                glitter: 10
-                minting_token: 1
-            output:
-                lootlist:
-                    - scavenging_tools_Artisan: [1, 1, 1]
-        make_scavenging_tools_expert_C1:
-            display_name: Make Expert Scavenging Tools
-            building: machine_shop
-            level:
-                machining: 75
-            input:
-                scavenging_tools_Journeyman: 1
-                metis_weave: 1
-                smelt_aluminum: 2
-                electronic_bits: 60
-                power: 100
-                stamina: 5
-                machining_tools: 3
-                glitter: 5
-            output:
-                lootlist:
-                    - scavenging_tools_Expert: [1, 1, 1]
-        make_scavenging_tools_journeyman_C1:
-            display_name: Make Journeyman Scavenging Tools
-            building: machine_shop
-            level:
-                machining: 50
-            input:
-                scavenging_tools_Apprentice: 1
-                metis: 2
-                smelt_aluminum: 4
-                electronic_bits: 80
-                power: 80
-                stamina: 5
-                machining_tools: 3
-            output:
-                lootlist:
-                    - scavenging_tools_Journeyman: [1, 1, 1]
-        make_scavenging_tools_master_C1:
-            display_name: Make Master Scavenging Tools
-            building: machine_shop
-            level:
-                machining: 100
-            input:
-                scavenging_tools_Expert: 1
-                metis_weave: 3
-                titanium_plate: 3
-                electronics_parts: 1
-                power: 100
-                stamina: 5
-                machining_tools: 4
-                glitter: 10
-                minting_token: 1
-            output:
-                lootlist:
-                    - scavenging_tools_Master: [1, 1, 1]
-        make_chemistry_tools_artisan_C1:
-            display_name: Make Artisan Chemistry Tools
-            building: machine_shop
-            level:
-                machining: 155
-            input:
-                chemistry_tools_m: 1
-                metis_weave: 10
-                titanium_plate: 5
-                argon: 50
-                power: 100
-                stamina: 10
-                machining_tools: 5
-                glitter: 10
-                minting_token: 1
-            output:
-                lootlist:
-                    - chemistry_tools_ar: [1, 1, 1]
-        make_chemistry_tools_expert_C1:
-            display_name: Make Expert Chemistry Tools
-            building: machine_shop
-            level:
-                machining: 80
-            input:
-                chemistry_tools_j: 1
-                metis_weave: 1
-                argon: 6
-                pla: 4
-                power: 100
-                stamina: 5
-                machining_tools: 3
-                glitter: 5
-            output:
-                lootlist:
-                    - chemistry_tools_e: [1, 1, 1]
-        make_chemistry_tools_journeyman_C1:
-            display_name: Make Journeyman Chemistry Tools
-            building: machine_shop
-            level:
-                machining: 60
-            input:
-                chemistry_tools_a: 1
-                metis: 2
-                argon: 5
-                oxygen: 35
-                pla: 5
-                power: 80
-                stamina: 5
-                machining_tools: 3
-            output:
-                lootlist:
-                    - chemistry_tools_j: [1, 1, 1]
-        make_chemistry_tools_master_C1:
-            display_name: Make Master Chemistry Tools
-            building: machine_shop
-            level:
-                machining: 110
-            input:
-                chemistry_tools_e: 1
-                metis_weave: 3
-                titanium_plate: 3
-                argon: 15
-                power: 100
-                stamina: 5
-                machining_tools: 4
-                glitter: 10
-                minting_token: 1
-            output:
-                lootlist:
-                    - chemistry_tools_m: [1, 1, 1]
-        make_electrical_tools_apprentice_C1:
-            display_name: Make Apprentice Electrical Tools
-            building: machine_shop
-            level:
-                electrical: 35
-                fabrication: 25
-            input:
-                electrical_tools_n: 1
-                metis: 3
-                empty_pc: 2
-                rover_wires: 6
-                electronic_bits: 50
-                power: 60
-                stamina: 5
-            output:
-                lootlist:
-                    - electrical_tools_a: [1, 1, 1]
-        make_electrical_tools_artisan_C1:
-            display_name: Make Artisan Electrical Tools
-            building: machine_shop
-            level:
-                machining: 155
-            input:
-                electrical_tools_m: 1
-                metis_weave: 10
-                titanium_plate: 5
-                full_ec: 2
-                power: 100
-                stamina: 10
-                machining_tools: 5
-                glitter: 10
-                minting_token: 1
-            output:
-                lootlist:
-                    - electrical_tools_ar: [1, 1, 1]
-        make_electrical_tools_expert_C1:
-            display_name: Make Expert Electrical Tools
-            building: machine_shop
-            level:
-                machining: 80
-            input:
-                electrical_tools_j: 1
-                metis_weave: 1
-                rover_wires: 20
-                empty_pc: 4
-                power: 100
-                stamina: 5
-                machining_tools: 3
-                glitter: 5
-            output:
-                lootlist:
-                    - electrical_tools_e: [1, 1, 1]
-        make_electrical_tools_journeyman_C1:
-            display_name: Make Journeyman Electrical Tools
-            building: machine_shop
-            level:
-                machining: 60
-            input:
-                electrical_tools_a: 1
-                metis: 2
-                rover_wires: 20
-                electronic_bits: 100
-                empty_pc: 5
-                power: 80
-                stamina: 5
-                machining_tools: 3
-            output:
-                lootlist:
-                    - electrical_tools_j: [1, 1, 1]
-        make_electrical_tools_master_C1:
-            display_name: Make Master Electrical Tools
-            building: machine_shop
-            level:
-                machining: 105
-            input:
-                electrical_tools_e: 1
-                metis_weave: 3
-                titanium_plate: 3
-                electronics_parts: 2
-                power: 100
-                stamina: 5
-                machining_tools: 4
-                glitter: 10
-                minting_token: 1
-            output:
-                lootlist:
-                    - electrical_tools_m: [1, 1, 1]
-        make_fabrication_tools_artisan_C1:
-            display_name: Make Artisan Fabrication Tools
-            building: machine_shop
-            level:
-                machining: 150
-            input:
-                fabrication_tools_m: 1
-                metis_weave: 10
-                titanium_plate: 5
-                pvc_pipe: 25
-                power: 100
-                stamina: 10
-                machining_tools: 5
-                glitter: 10
-                minting_token: 1
-            output:
-                lootlist:
-                    - fabrication_tools_ar: [1, 1, 1]
-        make_fabrication_tools_expert_C1:
-            display_name: Make Expert Fabrication Tools
-            building: machine_shop
-            level:
-                machining: 75
-            input:
-                fabrication_tools_j: 1
-                metis_weave: 1
-                smelt_aluminum: 2
-                pvc_raw: 2
-                power: 100
-                stamina: 5
-                machining_tools: 3
-                glitter: 5
-            output:
-                lootlist:
-                    - fabrication_tools_e: [1, 1, 1]
-        make_fabrication_tools_journeyman_C1:
-            display_name: Make Journeyman Fabrication Tools
-            building: machine_shop
-            level:
-                machining: 45
-            input:
-                fabrication_tools_a: 1
-                metis: 2
-                smelt_aluminum: 3
-                pvc_pipe: 3
-                power: 80
-                stamina: 5
-                machining_tools: 3
-            output:
-                lootlist:
-                    - fabrication_tools_j: [1, 1, 1]
-        make_fabrication_tools_master_C1:
-            display_name: Make Master Fabrication Tools
-            building: machine_shop
-            level:
-                machining: 100
-            input:
-                fabrication_tools_e: 1
-                metis_weave: 3
-                titanium_plate: 3
-                pvc_pipe: 5
-                power: 100
-                stamina: 5
-                machining_tools: 4
-                glitter: 10
-                minting_token: 1
-            output:
-                lootlist:
-                    - fabrication_tools_m: [1, 1, 1]
         lockbox_aluminum_keyjammer_C1:
             display_name: Make Aluminum Keyjammer
             building: machine_shop
@@ -8327,6 +7651,683 @@
             output:
                 lootlist:
                     - sfl_event_toy_rover: [1, 1, 1]
+            #tool_workshop
+            make_lifescience_tools_artisan_C1:
+                display_name: Make Artisan Life Science Tools
+                building: tool_workshop
+                level:
+                    machining: 150
+                input:
+                    lifescience_tools_m: 1
+                    metis_weave: 10
+                    titanium_plate: 5
+                    fertilizer: 5
+                    power: 100
+                    stamina: 10
+                    machining_tools: 5
+                    glitter: 10
+                    minting_token: 1
+                output:
+                    lootlist:
+                        - lifescience_tools_e: [ 1, 1, 1 ]
+            make_lifescience_tools_expert_C1:
+                display_name: Make Expert Life Science Tools
+                building: tool_workshop
+                level:
+                    machining: 75
+                input:
+                    lifescience_tools_j: 1
+                    metis_weave: 1
+                    soil: 50
+                    water: 75
+                    power: 100
+                    stamina: 5
+                    machining_tools: 3
+                    glitter: 5
+                output:
+                    lootlist:
+                        - lifescience_tools_e: [ 1, 1, 1 ]
+            make_lifescience_tools_journeyman_C1:
+                display_name: Make Journeyman Life Science Tools
+                building: tool_workshop
+                level:
+                    machining: 55
+                input:
+                    lifescience_tools_a: 1
+                    metis: 2
+                    soil: 80
+                    water: 80
+                    regolith: 200
+                    stamina: 5
+                    power: 80
+                    machining_tools: 3
+                output:
+                    lootlist:
+                        - lifescience_tools_j: [ 1, 1, 1 ]
+            make_lifescience_tools_master_C1:
+                display_name: Make Master Life Science Tools
+                building: tool_workshop
+                level:
+                    machining: 100
+                input:
+                    lifescience_tools_e: 1
+                    metis_weave: 3
+                    titanium_plate: 3
+                    soil: 75
+                    power: 100
+                    stamina: 5
+                    machining_tools: 4
+                    glitter: 10
+                    minting_token: 1
+                output:
+                    lootlist:
+                        - lifescience_tools_m: [ 1, 1, 1 ]
+            make_machining_tools_artisan_C1:
+                display_name: Make Artisan Machining Tools
+                building: tool_workshop
+                level:
+                    machining: 160
+                input:
+                    machining_tools_m: 1
+                    metis_weave: 10
+                    titanium_plate: 5
+                    machined_parts: 3
+                    power: 100
+                    stamina: 10
+                    machining_tools: 5
+                    glitter: 10
+                    minting_token: 1
+                output:
+                    lootlist:
+                        - machining_tools_ar: [ 1, 1, 1 ]
+            make_machining_tools_expert_C1:
+                display_name: Make Expert Machining Tools
+                building: tool_workshop
+                level:
+                    machining: 85
+                input:
+                    machining_tools_j: 1
+                    metis_weave: 1
+                    smelt_steel: 10
+                    metal_bits: 100
+                    power: 100
+                    stamina: 5
+                    machining_tools: 3
+                    glitter: 5
+                output:
+                    lootlist:
+                        - machining_tools_e: [ 1, 1, 1 ]
+            make_machining_tools_journeyman_C1:
+                display_name: Make Journeyman Machining Tools
+                building: tool_workshop
+                level:
+                    machining: 50
+                input:
+                    machining_tools_a: 1
+                    metis: 2
+                    smelt_steel: 15
+                    metal_bits: 100
+                    electronic_bits: 50
+                    power: 80
+                    stamina: 5
+                    machining_tools: 3
+                output:
+                    lootlist:
+                        - machining_tools_j: [ 1, 1, 1 ]
+            make_machining_tools_master_C1:
+                display_name: Make Master Machining Tools
+                building: tool_workshop
+                level:
+                    machining: 115
+                input:
+                    machining_tools_e: 1
+                    metis_weave: 3
+                    titanium_plate: 3
+                    machined_parts: 1
+                    power: 100
+                    stamina: 5
+                    machining_tools: 4
+                    glitter: 10
+                    minting_token: 1
+                output:
+                    lootlist:
+                        - machining_tools_m: [ 1, 1, 1 ]
+            make_mining_tools_artisan_C1:
+                display_name: Make Artisan Mining Tools
+                building: tool_workshop
+                level:
+                    machining: 160
+                input:
+                    mining_tools_m: 1
+                    metis_weave: 10
+                    titanium_plate: 5
+                    regolith: 5000
+                    power: 100
+                    stamina: 10
+                    machining_tools: 5
+                    glitter: 10
+                    minting_token: 1
+                output:
+                    lootlist:
+                        - mining_tools_ar: [ 1, 1, 1 ]
+            make_mining_tools_expert_C1:
+                display_name: Make Expert Mining Tools
+                building: tool_workshop
+                level:
+                    machining: 85
+                input:
+                    mining_tools_j: 1
+                    metis_weave: 1
+                    metal_bits: 100
+                    smelt_iron: 10
+                    power: 100
+                    stamina: 5
+                    machining_tools: 3
+                    glitter: 5
+                output:
+                    lootlist:
+                        - mining_tools_e: [ 1, 1, 1 ]
+            make_mining_tools_journeyman_C1:
+                display_name: Make Journeyman Mining Tools
+                building: tool_workshop
+                level:
+                    machining: 65
+                input:
+                    mining_tools_a: 1
+                    metis: 2
+                    metal_bits: 100
+                    smelt_iron: 15
+                    regolith: 250
+                    power: 80
+                    stamina: 5
+                    machining_tools: 3
+                output:
+                    lootlist:
+                        - mining_tools_j: [ 1, 1, 1 ]
+            make_mining_tools_master_C1:
+                display_name: Make Master Mining Tools
+                building: tool_workshop
+                level:
+                    machining: 115
+                input:
+                    mining_tools_e: 1
+                    metis_weave: 3
+                    titanium_plate: 3
+                    regolith: 1500
+                    power: 100
+                    stamina: 5
+                    machining_tools: 3
+                    glitter: 10
+                    minting_token: 1
+                output:
+                    lootlist:
+                        - mining_tools_m: [ 1, 1, 1 ]
+            make_aerospace_tools_apprentice_C1:
+                display_name: Make Apprentice Aerospace Tools
+                building: tool_workshop
+                level:
+                    machining: 70
+                input:
+                    aerospace_tools_n: 1
+                    metis: 2
+                    smelt_copper: 10
+                    electronic_bits: 25
+                    rover_wires: 10
+                    power: 60
+                    stamina: 5
+                output:
+                    lootlist:
+                        - aerospace_tools_a: [ 1, 1, 1 ]
+            make_aerospace_tools_artisan_C1:
+                display_name: Make Artisan Aerospace Tools
+                building: tool_workshop
+                level:
+                    machining: 170
+                input:
+                    aerospace_tools_m: 1
+                    metis_weave: 5
+                    titanium_plate: 5
+                    chromium: 10
+                    glitter: 10
+                    power: 140
+                    stamina: 10
+                    machining_tools: 10
+                    minting_token: 1
+                output:
+                    lootlist:
+                        - aerospace_tools_ar: [ 1, 1, 1 ]
+            make_aerospace_tools_expert_C1:
+                display_name: Make Expert Aerospace Tools
+                building: tool_workshop
+                level:
+                    machining: 110
+                input:
+                    aerospace_tools_j: 1
+                    metis_weave: 1
+                    smelt_copper: 20
+                    rover_wires: 20
+                    glitter: 5
+                    power: 100
+                    stamina: 5
+                    machining_tools: 5
+                output:
+                    lootlist:
+                        - aerospace_tools_e: [ 1, 1, 1 ]
+            make_aerospace_tools_journeyman_C1:
+                display_name: Make Journeyman Aerospace Tools
+                building: tool_workshop
+                level:
+                    machining: 90
+                input:
+                    aerospace_tools_a: 1
+                    metis: 2
+                    smelt_copper: 20
+                    electronic_bits: 100
+                    rover_wires: 20
+                    power: 80
+                    stamina: 5
+                    machining_tools: 3
+                output:
+                    lootlist:
+                        - aerospace_tools_j: [ 1, 1, 1 ]
+            make_aerospace_tools_master_C1:
+                display_name: Make Master Aerospace Tools
+                building: tool_workshop
+                level:
+                    machining: 130
+                input:
+                    aerospace_tools_e: 1
+                    metis_weave: 3
+                    titanium_plate: 3
+                    chromium: 5
+                    glitter: 10
+                    power: 120
+                    stamina: 10
+                    machining_tools: 10
+                output:
+                    lootlist:
+                        - aerospace_tools_m: [ 1, 1, 1 ]
+            make_aerospace_tools_novice_C1:
+                display_name: Make Novice Aerospace Tools
+                building: tool_workshop
+                level:
+                    machining: 50
+                input:
+                    chromium: 25
+                    metal_bits: 50
+                    rover_wires: 30
+                    metis: 2
+                    dusk: 10
+                    power: 60
+                    stamina: 5
+                output:
+                    lootlist:
+                        - aerospace_tools_n: [ 1, 1, 1 ]
+            make_robotics_tools_artisan_C1:
+                display_name: Make Artisan Robotics Tools
+                building: tool_workshop
+                level:
+                    machining: 165
+                input:
+                    robotics_tools_m: 1
+                    metis_weave: 10
+                    titanium_plate: 5
+                    rover_wires: 200
+                    power: 100
+                    stamina: 10
+                    machining_tools: 5
+                    glitter: 10
+                    minting_token: 1
+                output:
+                    lootlist:
+                        - robotics_tools_ar: [ 1, 1, 1 ]
+            make_robotics_tools_expert_C1:
+                display_name: Make Expert Robotics Tools
+                building: tool_workshop
+                level:
+                    machining: 90
+                input:
+                    robotics_tools_j: 1
+                    metis_weave: 1
+                    electronic_bits: 100
+                    rover_wires: 20
+                    power: 100
+                    stamina: 5
+                    machining_tools: 3
+                    glitter: 5
+                output:
+                    lootlist:
+                        - robotics_tools_e: [ 1, 1, 1 ]
+            make_robotics_tools_journeyman_C1:
+                display_name: Make Journeyman Robotics Tools
+                building: tool_workshop
+                level:
+                    machining: 50
+                input:
+                    robotics_tools_a: 1
+                    metis: 2
+                    metal_bits: 100
+                    electronic_bits: 100
+                    rover_wires: 20
+                    power: 80
+                    stamina: 5
+                    machining_tools: 3
+                output:
+                    lootlist:
+                        - robotics_tools_j: [ 1, 1, 1 ]
+            make_robotics_tools_master_C1:
+                display_name: Make Master Robotics Tools
+                building: tool_workshop
+                level:
+                    machining: 130
+                input:
+                    robotics_tools_e: 1
+                    metis_weave: 3
+                    titanium_plate: 3
+                    rover_wires: 50
+                    power: 100
+                    stamina: 5
+                    machining_tools: 4
+                    glitter: 10
+                    minting_token: 1
+                output:
+                    lootlist:
+                        - robotics_tools_m: [ 1, 1, 1 ]
+            make_scavenging_tools_artisan_C1:
+                display_name: Make Artisan Scavenging Tools
+                building: tool_workshop
+                level:
+                    machining: 150
+                input:
+                    scavenging_tools_Master: 1
+                    metis_weave: 5
+                    titanium_plate: 5
+                    electronics_parts: 3
+                    power: 100
+                    stamina: 10
+                    machining_tools: 5
+                    glitter: 10
+                    minting_token: 1
+                output:
+                    lootlist:
+                        - scavenging_tools_Artisan: [ 1, 1, 1 ]
+            make_scavenging_tools_expert_C1:
+                display_name: Make Expert Scavenging Tools
+                building: tool_workshop
+                level:
+                    machining: 75
+                input:
+                    scavenging_tools_Journeyman: 1
+                    metis_weave: 1
+                    smelt_aluminum: 2
+                    electronic_bits: 60
+                    power: 100
+                    stamina: 5
+                    machining_tools: 3
+                    glitter: 5
+                output:
+                    lootlist:
+                        - scavenging_tools_Expert: [ 1, 1, 1 ]
+            make_scavenging_tools_journeyman_C1:
+                display_name: Make Journeyman Scavenging Tools
+                building: tool_workshop
+                level:
+                    machining: 50
+                input:
+                    scavenging_tools_Apprentice: 1
+                    metis: 2
+                    smelt_aluminum: 4
+                    electronic_bits: 80
+                    power: 80
+                    stamina: 5
+                    machining_tools: 3
+                output:
+                    lootlist:
+                        - scavenging_tools_Journeyman: [ 1, 1, 1 ]
+            make_scavenging_tools_master_C1:
+                display_name: Make Master Scavenging Tools
+                building: tool_workshop
+                level:
+                    machining: 100
+                input:
+                    scavenging_tools_Expert: 1
+                    metis_weave: 3
+                    titanium_plate: 3
+                    electronics_parts: 1
+                    power: 100
+                    stamina: 5
+                    machining_tools: 4
+                    glitter: 10
+                    minting_token: 1
+                output:
+                    lootlist:
+                        - scavenging_tools_Master: [ 1, 1, 1 ]
+            make_chemistry_tools_artisan_C1:
+                display_name: Make Artisan Chemistry Tools
+                building: tool_workshop
+                level:
+                    machining: 155
+                input:
+                    chemistry_tools_m: 1
+                    metis_weave: 10
+                    titanium_plate: 5
+                    argon: 50
+                    power: 100
+                    stamina: 10
+                    machining_tools: 5
+                    glitter: 10
+                    minting_token: 1
+                output:
+                    lootlist:
+                        - chemistry_tools_ar: [ 1, 1, 1 ]
+            make_chemistry_tools_expert_C1:
+                display_name: Make Expert Chemistry Tools
+                building: tool_workshop
+                level:
+                    machining: 80
+                input:
+                    chemistry_tools_j: 1
+                    metis_weave: 1
+                    argon: 6
+                    pla: 4
+                    power: 100
+                    stamina: 5
+                    machining_tools: 3
+                    glitter: 5
+                output:
+                    lootlist:
+                        - chemistry_tools_e: [ 1, 1, 1 ]
+            make_chemistry_tools_journeyman_C1:
+                display_name: Make Journeyman Chemistry Tools
+                building: tool_workshop
+                level:
+                    machining: 60
+                input:
+                    chemistry_tools_a: 1
+                    metis: 2
+                    argon: 5
+                    oxygen: 35
+                    pla: 5
+                    power: 80
+                    stamina: 5
+                    machining_tools: 3
+                output:
+                    lootlist:
+                        - chemistry_tools_j: [ 1, 1, 1 ]
+            make_chemistry_tools_master_C1:
+                display_name: Make Master Chemistry Tools
+                building: tool_workshop
+                level:
+                    machining: 110
+                input:
+                    chemistry_tools_e: 1
+                    metis_weave: 3
+                    titanium_plate: 3
+                    argon: 15
+                    power: 100
+                    stamina: 5
+                    machining_tools: 4
+                    glitter: 10
+                    minting_token: 1
+                output:
+                    lootlist:
+                        - chemistry_tools_m: [ 1, 1, 1 ]
+            make_electrical_tools_apprentice_C1:
+                display_name: Make Apprentice Electrical Tools
+                building: tool_workshop
+                level:
+                    electrical: 35
+                    fabrication: 25
+                input:
+                    electrical_tools_n: 1
+                    metis: 3
+                    empty_pc: 2
+                    rover_wires: 6
+                    electronic_bits: 50
+                    power: 60
+                    stamina: 5
+                output:
+                    lootlist:
+                        - electrical_tools_a: [ 1, 1, 1 ]
+            make_electrical_tools_artisan_C1:
+                display_name: Make Artisan Electrical Tools
+                building: tool_workshop
+                level:
+                    machining: 155
+                input:
+                    electrical_tools_m: 1
+                    metis_weave: 10
+                    titanium_plate: 5
+                    full_ec: 2
+                    power: 100
+                    stamina: 10
+                    machining_tools: 5
+                    glitter: 10
+                    minting_token: 1
+                output:
+                    lootlist:
+                        - electrical_tools_ar: [ 1, 1, 1 ]
+            make_electrical_tools_expert_C1:
+                display_name: Make Expert Electrical Tools
+                building: tool_workshop
+                level:
+                    machining: 80
+                input:
+                    electrical_tools_j: 1
+                    metis_weave: 1
+                    rover_wires: 20
+                    empty_pc: 4
+                    power: 100
+                    stamina: 5
+                    machining_tools: 3
+                    glitter: 5
+                output:
+                    lootlist:
+                        - electrical_tools_e: [ 1, 1, 1 ]
+            make_electrical_tools_journeyman_C1:
+                display_name: Make Journeyman Electrical Tools
+                building: tool_workshop
+                level:
+                    machining: 60
+                input:
+                    electrical_tools_a: 1
+                    metis: 2
+                    rover_wires: 20
+                    electronic_bits: 100
+                    empty_pc: 5
+                    power: 80
+                    stamina: 5
+                    machining_tools: 3
+                output:
+                    lootlist:
+                        - electrical_tools_j: [ 1, 1, 1 ]
+            make_electrical_tools_master_C1:
+                display_name: Make Master Electrical Tools
+                building: tool_workshop
+                level:
+                    machining: 105
+                input:
+                    electrical_tools_e: 1
+                    metis_weave: 3
+                    titanium_plate: 3
+                    electronics_parts: 2
+                    power: 100
+                    stamina: 5
+                    machining_tools: 4
+                    glitter: 10
+                    minting_token: 1
+                output:
+                    lootlist:
+                        - electrical_tools_m: [ 1, 1, 1 ]
+            make_fabrication_tools_artisan_C1:
+                display_name: Make Artisan Fabrication Tools
+                building: tool_workshop
+                level:
+                    machining: 150
+                input:
+                    fabrication_tools_m: 1
+                    metis_weave: 10
+                    titanium_plate: 5
+                    pvc_pipe: 25
+                    power: 100
+                    stamina: 10
+                    machining_tools: 5
+                    glitter: 10
+                    minting_token: 1
+                output:
+                    lootlist:
+                        - fabrication_tools_ar: [ 1, 1, 1 ]
+            make_fabrication_tools_expert_C1:
+                display_name: Make Expert Fabrication Tools
+                building: tool_workshop
+                level:
+                    machining: 75
+                input:
+                    fabrication_tools_j: 1
+                    metis_weave: 1
+                    smelt_aluminum: 2
+                    pvc_raw: 2
+                    power: 100
+                    stamina: 5
+                    machining_tools: 3
+                    glitter: 5
+                output:
+                    lootlist:
+                        - fabrication_tools_e: [ 1, 1, 1 ]
+            make_fabrication_tools_journeyman_C1:
+                display_name: Make Journeyman Fabrication Tools
+                building: tool_workshop
+                level:
+                    machining: 45
+                input:
+                    fabrication_tools_a: 1
+                    metis: 2
+                    smelt_aluminum: 3
+                    pvc_pipe: 3
+                    power: 80
+                    stamina: 5
+                    machining_tools: 3
+                output:
+                    lootlist:
+                        - fabrication_tools_j: [ 1, 1, 1 ]
+            make_fabrication_tools_master_C1:
+                display_name: Make Master Fabrication Tools
+                building: tool_workshop
+                level:
+                    machining: 100
+                input:
+                    fabrication_tools_e: 1
+                    metis_weave: 3
+                    titanium_plate: 3
+                    pvc_pipe: 5
+                    power: 100
+                    stamina: 5
+                    machining_tools: 4
+                    glitter: 10
+                    minting_token: 1
+                output:
+                    lootlist:
+                        - fabrication_tools_m: [ 1, 1, 1 ]
     buildings:
         solar_panel:
             display_name: Solar Panel
@@ -8382,3 +8383,5 @@
             display_name: Commissary Kitchen
         daily_grinder:
             display_name: Daily Actions
+        tool_workshop:
+            display_name: Tool Workshop
