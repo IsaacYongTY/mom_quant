@@ -122,6 +122,10 @@
             display_name: Al-Li Alloy
         lettuce:
             display_name: Lettuce
+        sweet_potatoes:
+            display_name: Sweet Potatoes
+        soybean:
+            display_name: Soybean
     recipes:
         # greenhouse
         plant_sprouts:
@@ -188,7 +192,7 @@
                 soy_seed: 1
                 soil: 7
             output:
-                soys: [5, 10, 7.5]
+                soybean: [5, 10, 7.5]
                 soy_seed: [0, 1, 0.1]
                 soil: [0, 1, 0.2]
         plant_coffee:
