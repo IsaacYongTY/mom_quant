@@ -173,7 +173,7 @@
                 sweet_potato_seed: 1
                 soil: 5
             output:
-                sweet_potato: [3, 8, 4.2]
+                sweet_potatoes: [3, 8, 4.2]
                 sweet_potato_seed: [0, 1, 0.1]
                 soil: [0, 1, 0.2]
         plant_soy:
@@ -188,7 +188,7 @@
                 soy_seed: 1
                 soil: 7
             output:
-                soy: [5, 10, 7.5]
+                soys: [5, 10, 7.5]
                 soy_seed: [0, 1, 0.1]
                 soil: [0, 1, 0.2]
         plant_coffee:
