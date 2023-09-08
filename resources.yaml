@@ -147,9 +147,9 @@
                 lettuce_seed: 1
                 soil: 2
             output:
-                lettuce: [100, 2, 3]
-                lettuce_seed: [0.1, 1, 1]
-                soil: [0.2, 1, 1]
+                lettuce: [2, 3, 1]
+                lettuce_seed: [1, 1, 0.1]
+                soil: [1, 1, 0.2]
         plant_carrots:
             display_name: Plant Carrots
             building: greenhouse
